@@ -1,0 +1,392 @@
+@import url('https://fonts.googleapis.com/css2?family=Corinthia:wght@700&family=Meow+Script&family=Montagu+Slab:wght@200&family=Nanum+Myeongjo&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+
+}
+
+body{
+    background-color: #232323;
+}
+
+h1{
+    position: absolute;
+    font-family: 'Montagu Slab', serif;
+    font-size: 3vh;
+    padding-left: 5%;
+    padding-top: 3%;    
+    color: white;
+    letter-spacing: 5px;
+}
+
+h2{
+    position: absolute;
+    color: white;
+    font-size: 2vh;
+    font-family: sans-serif;
+    font-weight: 100;
+    padding-top: 10%; 
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.head-nav-blok{
+    position: fixed;
+    display: flex;
+    flex-wrap: wrap;
+    top: 5%;
+    width: 31.5%;
+    left: 65%;
+    align-items: center;
+    z-index: 2;
+}
+
+.head-element{
+    font-size: 1em;
+    border: 1px solid white;
+    background-color: none;
+    box-sizing: content-box;
+    padding: 10px;
+}
+
+.head-element:hover{
+    background-color: rgba(0,0,0,0.4);
+}
+
+.head-element a{
+    color: white;
+    font-family: sans-serif;
+}
+
+.container-1{
+    position: absolute;
+    top: 25%;
+    width: 80%;
+    left: 10%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    z-index: 1;
+}
+
+div.box-1{
+    flex: 1;
+    height: 500px;
+    width: 500px;
+    background: url(spa-1.jpg) no-repeat 50% 50%;
+    background-size: 600px 600px;
+    margin-right: 5%;
+}
+
+div.box-1-blur{
+    flex: 1;
+    height: 500px;
+    background-size: 600px 600px;
+}
+
+div.box-1-blur:hover{
+    flex: 1;
+    height: 500px;
+    background: rgba(0,0,0,0.6) 50% 50%;
+    background-size: 500px 500px;
+}
+
+div.box-2{
+    flex: 1;
+    height: 500px;
+    width: 500px;
+    background: url(spa-2.jpg) no-repeat 50% 50%;
+    background-size: 600px 600px;
+}
+
+div.box-2-blur{
+    flex: 1;
+    height: 500px;
+    background-size: 600px 600px;
+}
+
+div.box-2-blur:hover{
+    flex: 1;
+    height: 500px;
+    background: rgba(0,0,0,0.6) 50% 50%;
+    background-size: 500px 500px;
+}
+
+.container-2{
+    position: absolute;
+    top: 100%;
+    width: 80%;
+    left: 10%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    z-index: 1;
+}
+
+div.box-3{
+    flex: 1;
+    height: 500px;
+    width: 500px;
+    background: url(spa-3.jpg) no-repeat 50% 50%;
+    background-size: 600px 600px;
+    margin-right: 5%;
+}
+
+div.box-3-blur{
+    flex: 1;
+    height: 500px;
+    background-size: 600px 600px;
+}
+
+div.box-3-blur:hover{
+    flex: 1;
+    height: 500px;
+    background: rgba(0,0,0,0.6) 50% 50%;
+    background-size: 600px 600px;
+}
+
+div.box-4{
+    flex: 1;
+    height: 500px;
+    width: 500px;
+    background: url(spa-4.jpg) no-repeat 50% 50%;
+    background-size: 600px 600px;
+}
+
+div.box-4-blur{
+    flex: 1;
+    height: 500px;
+    background-size: 600px 600px;
+}
+
+div.box-4-blur:hover{
+    flex: 1;
+    height: 500px;
+    background: rgba(0,0,0,0.6) 50% 50%;
+    background-size: 600px 600px;
+}
+
+a.back {
+    top: 175%;  
+    left: 5%;
+    position: absolute;
+    text-align: center;
+    font-size: 1.2em;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: white;
+    background-color: #232323;
+    border: 1px solid white;
+}
+
+a.back:hover{
+    color: #232323;
+    background-color: white;
+}
+
+a.home-page {
+    top: 185%;
+    left: 5%;
+    position: absolute;
+    text-align: center;
+    font-size: 1.2em;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: white;
+    background-color: #232323;
+    border: 1px solid white;
+}
+
+a.home-page:hover{
+    color: #232323;
+    background-color: white;
+}
+
+a.next {
+    position: absolute;
+    top: 175%;
+    right: 5%;
+    position: absolute;
+    color: white;
+    background-color: #232323;
+    border: 1px solid white;
+    text-align: center;
+    font-size: 1.2em;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;  
+}
+
+a.next:hover{
+    color: #232323;
+    background-color: white;
+}
+
+.reg{
+    position: absolute;
+    top: 220%;
+    display: flex;
+    left: 50%;
+    width: 50%;
+}
+
+p.reg-text{
+    position: absolute;
+    left: 10%;
+    top: 260%;
+    font-family: sans-serif;
+    font-size: 3em;
+    color: white;
+}
+
+
+a.raschet-2 {
+    position: absolute;
+    color: white;
+    text-align: center;
+    left: 10%;
+    background-color: #232323;
+    top: 300%;
+    font-size: 20px;
+    border: 1px solid white;
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px; 
+}
+a.raschet-2:hover{
+    color: #232323;
+    background-color: white;
+}
+a.raschet-2:active{
+    color: black;
+    text-shadow: 2px 2px 3px black;
+}
+
+.registr-blok{
+    position: absolute;
+    left: 43%;
+    top: 310.2%;
+    width: 22%;
+    height: 60%;
+    display: flex;
+    background-color: white;
+    flex-wrap: wrap;
+}
+
+.reg-time,
+.reg-contact,
+.reg-social{
+    padding: 10px;
+    padding-top: 20px;
+    padding-left: 7%;
+}
+
+.reg-time img,
+.reg-contact img,
+.reg-social img{
+    padding-right: 5px;
+    float: left;
+    width: 30px;
+    margin-right: 10px;
+    display: block;
+}
+
+.reg-time p, a,
+.reg-contact p, a,
+.reg-social p, a{
+    color: black;
+    font-size: 1.2em;
+    font-family: sans-serif;
+    color: #232323;
+    line-height: 30px;
+}
+
+.reg-time,
+.reg-contact,
+.reg-social{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.reg-time-img,
+.reg-contact-img,
+.reg-social-img{
+    flex: 0.5;
+}
+
+.reg-time-text,
+.reg-contact-text,
+.reg-social-text{
+    flex: 3;
+}
+
+footer{
+    position: absolute;
+    top: 370.2%;
+    display: flex;
+    width: 100%;
+    background-color: #232323;
+}
+
+.f1{
+    flex: 1;
+    padding-top: 20px;
+    font-size: 1.2em;
+    text-align: center;
+    font-family: 'Montagu Slab', serif;
+    color: #525150;
+}
+.f2-links{
+    flex: 2;
+    text-align: ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.f2-links div{
+    padding: 20px;
+    padding-left: 42px;
+    text-align: center;
+    padding-right: 43px;
+    justify-content: space-between ;
+    transition: 0.3s;
+}
+.f2-links div:hover{
+    background-color: #48DBFB;
+}
+.f2-links-box a {
+    font-size: 1.4em;
+    text-align: center;
+    transition: 0.3s;
+    color: white;
+}
+.f2-links-box a:hover{
+    color: #232323;
+}
+
+.f3{
+    flex: 1;
+    padding-top: 20px;
+    font-size: 1.2em;
+    text-align: center;
+    font-family: 'Montagu Slab', serif;
+    transition: 0.3s;
+}
+.f3:hover{
+    background: #48DBFB ;
+}
+.f3 a{
+    color: white;
+    transition: 0.3s;
+}
+.f3 a:hover{
+    color: #232323;
+}
+
+

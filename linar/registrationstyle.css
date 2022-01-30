@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Corinthia:wght@700&family=Meow+Script&family=Montagu+Slab:wght@200&family=Nanum+Myeongjo&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+
+}
+
+body{
+    background-color: #232323;
+}
+
+h1{
+    position: absolute;
+    font-family: 'Montagu Slab', serif;
+    font-size: 3vh;
+    padding-left: 5%;
+    padding-top: 3%;    
+    color: white;
+    letter-spacing: 5px;
+}
+
+.head-nav-blok{
+    position: fixed;
+    display: flex;
+    flex-wrap: wrap;
+    top: 5%;
+    width: 31.5%;
+    left: 65%;
+    align-items: center;
+    z-index: 2;
+}
+
+.head-element{
+    font-size: 1em;
+    border: 1px solid white;
+    background-color: none;
+    box-sizing: content-box;
+    padding: 10px;
+}
+
+.head-element:hover{
+    background-color: rgba(0,0,0,0.4);
+}
+
+.head-element a{
+    color: white;
+    font-family: sans-serif;
+}
+
+.container-1{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    z-index: 1;
+    padding: 4%;
+    border: 1px solid white;
+}
+
+.sel-text{
+    color: white;
+    font-size: 2em;
+
+}
+.sel-punkts{
+    background-color: #232323;
+    border-color: white;
+    color: white;
+    height: 30px;
+    width: 200px;
+}
+.opts{
+    color: #48DBFB;
+
+}
+    
+a.home-page {
+    position: absolute;
+    top: 102%;
+    left: 0%;
+    color: white;
+    font-size: 1.2  em;
+    text-align: center;
+    border: 1px solid white;
+    background-color: #232323;
+    padding: 11.5px;
+    padding-left: 30px;
+    padding-right: 30px; 
+}
+
+a.home-page:hover{
+    color: #232323;
+    background-color: white;
+}
+
+.reg{
+    position: absolute;
+    top: 120%;
+    display: flex;
+    left: 50%;
+    width: 50%;
+}
+
+input.raschet-2 {
+    position: absolute;
+    top: 102%;
+    right: 0%;
+    color: white;
+    font-size: 1.2em;
+    text-align: center;
+    border: 1px solid white;
+    background-color: #232323;
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px; 
+}
+input.raschet-2:hover{
+    color: #232323;
+    background-color: white;
+}
+input.raschet-2:active{
+    color: black;
+    text-shadow: 2px 2px 3px black;
+}
+
+.registr-blok{
+    position: absolute;
+    left: 10%;
+    top: 160%;
+    font-family: sans-serif;
+    width: 30%;
+    height: 70%;
+    display: flex;
+    background-color: white;
+    flex-wrap: wrap;
+}
+
+.reg-time,
+.reg-contact,
+.reg-social{
+    padding: 10px;
+    padding-top: 30px;
+    padding-left: 15%;
+}
+
+.reg-time img,
+.reg-contact img,
+.reg-social img{
+    padding-right: 5px;
+    float: left;
+    width: 30px;
+    margin-right: 10px;
+    display: block;
+}
+
+.reg-time p, a,
+.reg-contact p, a,
+.reg-social p, a{
+    color: black;
+    font-size: 1.2em;
+    font-family: sans-serif;
+    color: #232323;
+    line-height: 30px;
+}
+
+.reg-time,
+.reg-contact,
+.reg-social{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.reg-time-img,
+.reg-contact-img,
+.reg-social-img{
+    flex: 0.5;
+}
+
+.reg-time-text,
+.reg-contact-text,
+.reg-social-text{
+    flex: 3;
+}
+
+footer{
+    position: absolute;
+    top: 270%;
+    display: flex;
+    width: 100%;
+    background-color: #232323;
+}
+
+.f1{
+    flex: 1;
+    padding-top: 20px;
+    font-size: 1.2em;
+    text-align: center;
+    font-family: 'Montagu Slab', serif;
+    color: #525150;
+}
+.f2-links{
+    flex: 2;
+    text-align: ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.f2-links div{
+    padding: 20px;
+    padding-left: 42px;
+    text-align: center;
+    padding-right: 43px;
+    justify-content: space-between ;
+    transition: 0.3s;
+}
+.f2-links div:hover{
+    background-color: #48DBFB;
+}
+.f2-links-box a {
+    font-size: 1.4em;
+    text-align: center;
+    transition: 0.3s;
+    color: white;
+}
+.f2-links-box a:hover{
+    color: #232323;
+}
+
+.f3{
+    flex: 1;
+    padding-top: 20px;
+    font-size: 1.2em;
+    text-align: center;
+    font-family: 'Montagu Slab', serif;
+    transition: 0.3s;
+}
+.f3:hover{
+    background: #48DBFB ;
+}
+.f3 a{
+    color: white;
+    transition: 0.3s;
+}
+.f3 a:hover{
+    color: #232323;
+}
+
+
